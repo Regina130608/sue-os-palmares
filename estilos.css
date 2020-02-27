@@ -1,0 +1,28 @@
+nav{
+            background-color: pink;
+            height: 60px
+            }
+          main{
+            background-color: green;
+            height: 500px;
+            with: 1000px;
+            }
+          footer {
+            background-color: lightblue;
+            height: 30px;
+            }
+          section {
+            background-color: lightblue;
+            height: 70px;
+            margin-bottom: 100px;
+            margin-top: 10px;
+            margin-left: 360px;
+            margin-right: 360px;
+            }
+          .letragrande{
+            font-size: 60px;
+            }
+          img {
+            height: 300px;
+            margin-left: 500px;
+            }
