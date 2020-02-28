@@ -1,6 +1,6 @@
-nav{
+          nav{
             background-color: pink;
-            height: 60px
+            height: 100px
             }
           main{
             background-color: green;
@@ -26,3 +26,6 @@ nav{
             height: 300px;
             margin-left: 500px;
             }
+          .letranav{
+            font-size: 90px;
+          }
