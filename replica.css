@@ -1,0 +1,15 @@
+<style>
+
+#uno{
+  height: 10px;
+  border-color: -#FFFFFF
+}
+img{
+  background-color: #848484
+}
+img:hover{
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+</style>

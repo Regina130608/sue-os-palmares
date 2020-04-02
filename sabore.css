@@ -1,0 +1,67 @@
+nav{
+  background-color: #EEC170;
+  height: 60px;
+  text-align: center;
+  }
+nav a, nav spam{
+  font-size: 50px;
+  color: #4B3621;
+}
+main{
+  background-color: #C29B61;
+  height: 457px;
+  with: 1200px;
+  margin-top: 10px;
+  }
+footer {
+  background-color: #835537;
+  height: 50px;
+  }
+
+.letragrande{
+  font-size: 45px;
+  }
+img {
+  height: 340px;
+  margin-left: 10px;
+  }
+.letranav{
+  font-size: 50px;
+}
+body {
+  background-image:url("https://viaorganica.org/wp-content/uploads/images225.jpg");
+}
+section{
+
+
+}
+#natural{
+  height: 150px;
+  margin-right: 200px;
+  margin-top: 40px;
+  margin-left: 150px;
+  margin-bottom: 20px;
+}
+#natural:hover{
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+#nuez{
+  height: 150px;
+  margin-right: 200px;
+}
+#nuez:hover{
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+#pasas{
+  height: 150px;
+
+}
+#pasas:hover{
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}

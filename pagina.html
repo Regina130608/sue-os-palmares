@@ -5,22 +5,53 @@
    </head>
    <body>
       <nav>
-	  </a>
-       <h1 class="letranav"> -------- Incio   / Sabores / Precios --------- </h1>
+        <a href="#">Inicio</a>
+        <spam>/</spam>
+        <a href="#">Sabores</a>
+        <spam>/</spam>
+        <a href="#">Precios</a>
       </nav>
       <main>
+        <div>
+          <!--primera imagen -->
+          <img id="bienvenido" src="https://keynerherramientacolaborativa.files.wordpress.com/2018/02/bienvenidos.png">
+        </div>
+        <div>
+          <!--mapa y titulo -->
           <section>
           <h1 class = "letragrande"> SINNAMON CLUB <h1>
-            <a href="https://www.google.com/maps/place/Grand+Isla+Navidad+Resort/@19.195403,-104.6862691,17z/data=!3m1!4b1!4m5!3m4!1s0x8424b8406cff7879:0x335355">
-                <img src="https://image.flaticon.com/icons/png/512/854/854878.png">
-       </a>
-
+            <a target="blank"   id="switchimg" onclick="flipImg()">
+                <!-- <img id="mapa" src="https://image.flaticon.com/icons/png/512/854/854878.png" onclick="swich()"> -->
+                <img id="mapa" src="https://image.freepik.com/vector-gratis/icono-rollos-canela_24911-4788.jpg">
+              </a>
           </section>
-          <article> </article>
+        </div>
+        <div>
+          <!--segunda imagen -->
+          <img id="welcome" src="https://webstockreview.net/images/welcome-png-images-13.png">
+        </div>
       </main>
       <footer>
-          <p>soy yo, hola crayola</p>
+          <p>no se</p>
       </footer>
    </body>
+
+   <script type="text/javascript">
+     function flipImg() {
+       var imagen = document.getElementById('mapa');
+       if(imagen.src == "https://image.freepik.com/vector-gratis/icono-rollos-canela_24911-4788.jpg") {
+         imagen.style.transform = "scaleX(-1)";
+         imagen.style.transition = "1s ease-out"
+         imagen.src = 'https://image.flaticon.com/icons/png/512/854/854878.png';
+       }
+       if(imagen.src == 'https://image.flaticon.com/icons/png/512/854/854878.png') {
+         var mapa = document.getElementById("switchimg");
+           mapa.onclick = function(){
+             mapa.href = "https://google.com/maps/place/Gabino+Barajas+109,+El+Batán,+45190+Zapopan,+Jal./@20.720054,-103.3472336,3a,75y,240.5h,90t/data=!3m7!1e1!3m5!1sUMJawD3St5iaEooZNU-9Nw!2e0!6s%2F%2Fgeo1.ggpht.com%2Fcbk%3Fpanoid%3DUMJawD3St5iaEooZNU-9Nw%26output%3Dthumbnail%26cb_client%3Dmaps_sv.tactile.gps%26thumb%3D2%26w%3D203%26h%3D100%26yaw%3D240.50273%26pitch%3D0%26thumbfov%3D100!7i13312!8i6656!4m5!3m4!1s0x8428b02e211dbbf7:0x6fecc2bcae5daee2!8m2!3d20.719979!4d-103.3473692"
+           }
+       }
+
+     }
+   </script>
 
 </html>
